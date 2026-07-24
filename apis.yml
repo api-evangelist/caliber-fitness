@@ -1,8 +1,14 @@
 aid: caliber-fitness
 name: Caliber Fitness
-description: 'Caliber Fitness is a company surfaced as a portfolio company of trinity-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Caliber Fitness, Inc. is a consumer strength-training and fitness-coaching
+  company behind the Caliber: Strength Training app (iOS and Android). Caliber combines
+  data-driven resistance-training and nutrition programming, a library of 600+ exercises,
+  workout tracking, and one-on-one video coaching from certified personal trainers
+  across free, Caliber Plus, and Premium Coaching tiers. Founded by Justin Fauci and
+  Chris Muir, the company is backed by Trinity Ventures. Caliber operates as a consumer
+  mobile app and coaching service; it does not publish a public developer API, developer
+  portal, or OpenAPI at this time. This profile tracks its public web, legal, and
+  membership surface within the API Evangelist network.'
 url: https://raw.githubusercontent.com/api-evangelist/caliber-fitness/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +16,57 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://caliberstrong.com/wp-content/uploads/2022/02/caliber_open_graph.png
 tags:
 - Company
 - Consumer
+- Fitness
+- Health
+- Strength Training
+- Coaching
+- Nutrition
+- Mobile App
 apis: []
+common:
+- type: DomainSecurity
+  url: security/caliber-fitness-domain-security.yml
+- type: Website
+  url: https://caliberstrong.com
+- type: Blog
+  url: https://caliberstrong.com/blog/
+- type: Support
+  url: https://caliberstrong.com/faqs/
+- type: Pricing
+  url: https://caliberstrong.com/membership/
+- type: SignUp
+  url: https://caliberstrong.com/signup/
+- type: Login
+  url: https://caliberstrong.com/login/
+- type: TermsOfService
+  url: https://caliberstrong.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://caliberstrong.com/privacy-policy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
