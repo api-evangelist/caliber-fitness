@@ -2,6 +2,13 @@
   "repo": "caliber-fitness",
   "feeds": [
     {
+      "source": "https://caliberstrong.com/sample-page/feed/",
+      "feed_url": "https://caliberstrong.com/sample-page/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://caliberstrong.com",
       "feed_url": "https://caliberstrong.com/sample-page/feed/",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-07-20T13:31:34Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
